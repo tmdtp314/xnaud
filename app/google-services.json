@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454626356700",
+    "project_id": "sensor-control-8fc46",
+    "storage_bucket": "sensor-control-8fc46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454626356700:android:b1aad7b808c0c3125d3319",
+        "android_client_info": {
+          "package_name": "com.example.severandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454626356700-lm2mmrc9vmrbh6q579oiau4nnp43gs3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnyTf-p23mWao3QNEEo0RfM_5JFvOA1Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454626356700-lm2mmrc9vmrbh6q579oiau4nnp43gs3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

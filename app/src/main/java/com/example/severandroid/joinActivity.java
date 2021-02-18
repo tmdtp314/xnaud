@@ -47,6 +47,7 @@ public class joinActivity extends AppCompatActivity {
                if(response.equals("1")){ //jin성공
                    Toast.makeText(joinActivity.this,"가입성공",Toast.LENGTH_SHORT).show();
 
+                   finish();
                }
                else{Toast.makeText(joinActivity.this,"가입실패",Toast.LENGTH_SHORT).show();
 
