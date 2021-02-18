@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btn_sr1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="84dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sr2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="244dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sr"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="408dp"
+        android:backgroundTint="#B6ADAD"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sr3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#B6ADAD"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sr4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#B6ADAD"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sr5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="408dp"
+        android:backgroundTint="#B6ADAD"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="142dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="60dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
