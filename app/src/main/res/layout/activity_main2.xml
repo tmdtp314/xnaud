@@ -12,6 +12,7 @@
         android:layout_height="130dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="76dp"
+        android:backgroundTint="#B6ADAD"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -66,6 +67,7 @@
         android:layout_height="130dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="236dp"
+        android:backgroundTint="#B6ADAD"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
