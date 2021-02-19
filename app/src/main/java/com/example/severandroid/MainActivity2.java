@@ -23,9 +23,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity2 extends AppCompatActivity {
+    Button btn;
     Button btn_sr1;
     Button btn_sr2;
     Button btn_all;
+    Button btn_sr3, btn_sr4,btn_sr5,btn_sr6;
     RequestQueue requestQueue;
     StringRequest stringRequest, stringRequest2, stringRequest3;
     boolean checkSr1 = false;
@@ -38,8 +40,33 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         btn_sr1 = findViewById(R.id.btn_sr1);
         btn_sr2 = findViewById(R.id.btn_sr2);
+        btn_sr3 = findViewById(R.id.btn_sr3);
+        btn_sr4 = findViewById(R.id.btn_sr4);
+        btn_sr5 = findViewById(R.id.btn_sr5);
+        btn_sr6 = findViewById(R.id.btn_sr6);
+
         btn_all=findViewById(R.id.btn_all);
         requestQueue = Volley.newRequestQueue(this);
+
+
+        String id="aaa";
+        switch(id){
+            case "aaa":
+                btn=btn_sr1;
+                break;
+            case "bbb":
+                btn=btn_sr2;
+                break;
+
+            case "ccc":
+                btn=btn_sr3;
+                break;
+
+
+            case "ddd":
+                btn=btn_sr4;
+                        break;
+        }
 
         String url = "http://172.30.1.49:8083/LoginServer/sensorCon";
 
